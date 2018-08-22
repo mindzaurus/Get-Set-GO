@@ -14,4 +14,4 @@ func main() {
 
 // Only for C, C++, java programmers
 // k = j++ // Can't do things like k = j++ or A[k++] etc ....
-// ++j GO doesn't support pre increment operator ++i
+// ++j GO doesn't support pre increment ++i
