@@ -4,6 +4,7 @@ import (
   "fmt"
 )
 
+// else is just optional while using else if
 func grtLessOrEql(x, y int) {
   if x > y { // check if x is greater than y
     fmt.Println("x",x,"y",y,"x is greater than y")
