@@ -11,5 +11,5 @@ func main() {
     fmt.Println("pointer ", ptr, "is nil")
   }
 
-  fmt.Println("Dereferencing nil pointer ", *ptr)
+  fmt.Println("Dereferencing nil pointer ", *ptr) // expect program will abort and crash
 }
