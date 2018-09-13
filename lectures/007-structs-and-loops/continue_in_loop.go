@@ -13,7 +13,7 @@ func loop1() {
 func loop2() {
   for i := 0; i <= 10; i++ {
     if i == 5 || i == 6 {
-      continue // iteration continues with i == 6 below print is not printed for 5
+      continue
     }
     fmt.Println("loop2: i =", i)
   }
